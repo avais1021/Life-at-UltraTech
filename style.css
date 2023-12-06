@@ -1,0 +1,703 @@
+/* common -------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_cr {
+    /* max-width: 1156px; */
+    max-width: 1196px;
+    /* box-shadow: 2px 2px greenyellow; */
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+/* --------------------------------------------------- */
+
+/* carrier banner ----start---------------- */
+
+.bannerCarr {
+    min-height: 579px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+}
+
+.bannerCarr__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bannerCarr__img img {
+    width: 100%;
+    height: 579px;
+}
+
+.bannerCarr__row {
+    min-height: 467px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerCarr h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+.bannerCarr__search form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.bannerCarr__search select {
+    width: 360px;
+    background-color: #EBEBEB;
+    padding: 16px 24px;
+    font-size: 14px;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    border-right: 20px solid transparent;
+    outline: none;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.bannerCarr__search button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.bannerCarr__galssdoor {
+    max-width: 1205px;
+    min-height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bannerCarr__glassLogo {
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    padding-right: 17px;
+}
+
+.bannerCarr__items {
+    min-height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-left: 1px solid #D8D8D8;
+    padding: 0 15px;
+}
+
+.bannerCarr__items p {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.bannerCarr__ratingParent {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.bannerCarr__ratingParent span {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.bannerCarr__workLifeLink img {
+    margin-left: 21px;
+    width: 18px;
+    height: 18px;
+}
+
+.bannerCarr__rating i {
+    font-size: 10px;
+    margin-right: 6px;
+    color: rgb(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.bannerCarr__linkedin_insta {
+    background-color: #E7E7E7B2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.75);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 25px;
+    margin-left: 18px;
+}
+
+
+/* sectionWeEcho start-------------------------------------------------------------------------  */
+.weEcho {
+    min-height: 710px;
+    background-color: #E8E8E8;
+    font-family: 'Lato', sans-serif;
+    padding: 120px 20px 0px 20px;
+    overflow-x: hidden;
+}
+
+.weEcho h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.weEcho .first {
+    max-width: 961px;
+    line-height: 25px;
+}
+
+.weEcho p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.weEchoCard {
+    /* width: 589px; */
+    min-height: 415px;
+    margin-right: 35px;
+}
+
+.weEchoCard p {
+    line-height: 28px;
+    max-width: 400px;
+    margin-bottom: 47px;
+}
+
+.weEchoCard h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.weEchoCard img {
+    border-radius: 30px;
+    width: 100%;
+    /* width: 589px; */
+}
+
+.knowMore_cr a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px 42px;
+    border-radius: 8px;
+    color: white;
+    background: #747474;
+    border: none;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.weEcho__sliderWrapper {
+    position: relative;
+}
+
+.commitment_slider {
+    margin-top: 45px;
+}
+
+.commitment_slider .slick-list {
+    overflow: visible;
+    clip-path: inset(-100vw -100vw -100vw 0);
+}
+
+.commitment_slider .slick-prev {
+    left: 100px;
+    top: 90%;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.commitment_slider .slick-next {
+    right: unset;
+    left: 190px;
+    top: 90%;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.commitment_slider .slick-next::before {
+    opacity: 0;
+}
+
+.commitment_slider .slick-prev::before {
+    opacity: 0;
+}
+
+.commitment_slider .slick-prev img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.commitment_slider .slick-next img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.pagingInfo {
+    position: absolute;
+    left: 2px;
+    top: 88%;
+    font-size: 16px;
+}
+
+/* end  */
+
+/* -------Section joyDay start----------------------------------- */
+
+.joyDay {
+    padding: 120px 0;
+    background: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.joyDay__row1 {
+    padding: 0 20px;
+}
+
+.joyDay h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.joyDay .firstP {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 830px;
+    line-height: 25px;
+}
+
+.joyDay__card {
+    max-width: 832px;
+    min-height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.joyDay__employImg img {
+    width: 228px;
+    height: 100%;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.joyDay__employinfo {
+    padding: 75px 30px 40px 50px;
+}
+
+.joyDay__employinfoBio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: rgb(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+}
+
+.joyDay__employinfoName {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.joyDay__employinfoPost {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.joyDay__sliderWrapper {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.joyDay__slider .slick-prev {
+    left: unset;
+    top: unset;
+    right: 20%;
+    bottom: -75px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.joyDay__slider .slick-next {
+    left: unset;
+    top: unset;
+    right: 13%;
+    bottom: -75px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.joyDay__slider .slick-next::before {
+    opacity: 0;
+}
+
+.joyDay__slider .slick-prev::before {
+    opacity: 0;
+}
+
+.joyDay__slider .slick-prev img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.joyDay__slider .slick-next img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.joyDay__pagingInfo {
+    position: absolute;
+    left: unset;
+    top: unset;
+    right: 24%;
+    bottom: -68px;
+    font-size: 16px;
+}
+
+@media screen and (max-width:948.9px) {
+    .joyDay__card {
+        margin-left: unset;
+        margin-right: unset;
+        margin: 0 auto;
+    }
+
+    .joyDay {
+        padding: 120px 20px;
+    }
+}
+
+
+/* sectionCelebrations start-------------------------  */
+.celebrations {
+    min-height: 780px;
+    background-color: #E8E8E8;
+    font-family: 'Lato', sans-serif;
+    padding: 120px 20px 0px 20px;
+    overflow-x: hidden;
+}
+
+.celebrations h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.celebrations .first {
+    max-width: 961px;
+    line-height: 25px;
+}
+
+.celebrations p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.celebrationCard {
+    width: 345px;
+    height: 345px;
+    /* min-height: 415px; */
+    margin-right: 20px;
+}
+
+.celebrationCard p {
+    line-height: 28px;
+    max-width: 400px;
+}
+
+.celebrationCard h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.celebrationCard img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    /* width: 589px; */
+}
+
+
+.celebrations__sliderWrapper {
+    position: relative;
+}
+
+.celebrations_slider {
+    margin-top: 45px;
+}
+
+.celebrations_slider .slick-list {
+    overflow: visible;
+    clip-path: inset(-100vw -100vw -100vw 0);
+}
+
+.celebrations_slider .slick-prev {
+    left: unset;
+    top: unset;
+    right: 9%;
+    bottom: -75px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.celebrations_slider .slick-next {
+    left: unset;
+    top: unset;
+    right: 0%;
+    bottom: -75px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.celebrations_slider .slick-next::before {
+    opacity: 0;
+}
+
+.celebrations_slider .slick-prev::before {
+    opacity: 0;
+}
+
+.celebrations_slider .slick-prev img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.celebrations_slider .slick-next img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.celebrationsPagingInfo {
+    position: absolute;
+    left: unset;
+    top: unset;
+    right: 15%;
+    bottom: -68px;
+    font-size: 16px;
+}
+
+/* end  */
+
+
+/* sectionOfficial start-------------------------  */
+.Official {
+    min-height: 780px;
+    background-color: #E8E8E8;
+    font-family: 'Lato', sans-serif;
+    padding: 120px 20px 120px 20px;
+}
+
+.Official h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.Official .first {
+    max-width: 961px;
+    line-height: 25px;
+}
+
+.Official p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Official__cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 19px;
+    margin-top: 54px;
+}
+
+.OfficialCard {
+    width: 386px;
+    min-height: 392px;
+    border: 2px solid rgb(0, 0, 0 , 0.1);
+    border-radius: 30px;
+    padding: 0 10px 0 30px;
+}
+
+.OfficialCard img {
+    width: 109px;
+    height: 175px;
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 44px;
+    display: block;
+}
+
+.OfficialCard h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+
+.OfficialCard p {
+    width: 294px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(0, 0, 0 , 0.75);
+}
+
+/* end  */
+
+
+/* sectionCelebrations start---------------------------------------------------------------------  */
+.employeesDriving {
+    min-height: 870px;
+    background-color: #E8E8E8;
+    font-family: 'Lato', sans-serif;
+    padding: 120px 20px 0px 20px;
+    overflow-x: hidden;
+}
+
+.employeesDriving h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.employeesDriving .first {
+    max-width: 961px;
+    line-height: 25px;
+}
+
+.employeesDriving p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.employeesDrivingCard {
+    width: 345px;
+    height: 345px;
+    /* min-height: 415px; */
+    margin-right: 20px;
+}
+
+
+.employeesDrivingCard img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    /* width: 589px; */
+}
+.employeesDrivingCard p {
+    margin-top: 25px;
+    line-height: 28px;
+    max-width: 530px;
+}
+
+
+.employeesDriving__sliderWrapper {
+    position: relative;
+}
+
+.employeesDriving_slider {
+    margin-top: 45px;
+}
+
+.employeesDriving_slider .slick-list {
+    overflow: visible;
+    clip-path: inset(-100vw -100vw -100vw 0);
+}
+
+.employeesDriving_slider .slick-prev {
+    left: unset;
+    top: unset;
+    right: 9%;
+    bottom: -160px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.employeesDriving_slider .slick-next {
+    left: unset;
+    top: unset;
+    right: 0%;
+    bottom: -160px;
+    /* background-color: grey; */
+    z-index: 10;
+}
+
+.employeesDriving_slider .slick-next::before {
+    opacity: 0;
+}
+
+.employeesDriving_slider .slick-prev::before {
+    opacity: 0;
+}
+
+.employeesDriving_slider .slick-prev img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.employeesDriving_slider .slick-next img {
+    width: 40px;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.employeesDrivingPagingInfo {
+    position: absolute;
+    left: unset;
+    top: unset;
+    right: 15%;
+    bottom: -150px;
+    font-size: 16px;
+}
+
+/* end  */
